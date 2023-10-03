@@ -9,15 +9,24 @@
             Padding="30,0"
             VerticalOptions="Center">
 
+            
             <StackLayout>
-                <Label Text="Ingrese dos números:" />
-                <Entry Placeholder="Número 1" x:Name="numero1Entry" />
+                <Label Text="Ingrese dos números:"  
+                       HorizontalOptions="Center" />
+                <Entry Placeholder="Número 1" 
+                       x:Name="numero1Entry"   />
                 <Entry Placeholder="Número 2" x:Name="numero2Entry" />
-                <Label Text="Resultado:" x:Name="resultadoLabel" />
-                <Button Text="Suma" Clicked="Suma_Clicked" />
-                <Button Text="Resta" Clicked="Resta_Clicked" />
-                <Button Text="Multiplicación" Clicked="Multiplicacion_Clicked" />
-                <Button Text="División" Clicked="Division_Clicked" />
+                <Label Text="Resultado:" x:Name="resultadoLabel"  />
+                <Button Text="Suma" Clicked="Suma_Clicked"  
+                        Margin="0,10,0,0" />
+                <Button Text="Resta" Clicked="Resta_Clicked"  
+                        Margin="0,10,0,0" />
+                <Button Text="Multiplicación" 
+                        Clicked="Multiplicacion_Clicked" 
+                        Margin="0,10,0,0" />
+                <Button Text="División" 
+                        Clicked="Division_Clicked"  
+                        Margin="0,10,0,0" />
             </StackLayout>
 
 
